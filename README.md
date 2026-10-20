@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # Network Badge
 
 A native macOS menu bar app that shows **live internet latency** and **connection type** at a glance. Built for travellers who want to monitor their internet quality on trains, in cafes, or wherever they roam.
@@ -160,3 +164,32 @@ These are tuned for typical European train WiFi and mobile hotspots.
 ## License
 
 Apache 2.0 — see [LICENSE.txt](LICENSE.txt)
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+[Someniak/macos-network-badge](https://github.com/Someniak/macos-network-badge) 的 Fork，在 macOS 菜单栏展示网络延迟、连接类型和质量历史，并提供可选的提醒、位置质量记录与地图浏览。
+
+**使用入口：** 需要 macOS 13+ 与 Swift 5.9+；运行 `swift build` 后通过 `swift run NetworkBadge` 启动，应用打包脚本位于 `scripts/`。
+
+**范围说明：** 延迟采用 HTTP 请求测量；位置功能需启用并满足数据条件，路线预测依赖历史记录。原作者归属与 Apache-2.0 许可保留。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+A fork of [Someniak/macos-network-badge](https://github.com/Someniak/macos-network-badge), showing network latency, connection type, and quality history in the macOS menu bar, with optional alerts, location-tagged quality records, and maps.
+
+**Getting started:** Requires macOS 13+ and Swift 5.9+. Run `swift build`, then `swift run NetworkBadge`; packaging scripts are under `scripts/`.
+
+**Scope:** Latency is measured through HTTP requests. Location features must be enabled and supplied with suitable data; route predictions depend on historical records. Upstream authorship and Apache-2.0 licensing remain credited.
+
+**本 Fork 的维护者 / Maintainer of this fork:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+**上游项目 / Upstream:** [Someniak/macos-network-badge](https://github.com/Someniak/macos-network-badge)。保留原作者署名与原许可证 / Original authorship and license notices are retained.
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
